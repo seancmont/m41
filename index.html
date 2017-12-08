@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>IllnessTanks</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,400i,700,700i|Electrolize|Playfair+Display+SC:400,400i,700,700i" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="banner" class="navbar navbar-default navbar-fixed-top">
+    <div class="container"><a id="siteHead" class="scrollable" href="#top">Illness</a>
+      <button class="navbar-toggle collapsed"  id="navButton" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span></button>
+      <nav class="collapse navbar-collapse" id="navbar" role="navigation">
+      </button>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="scrollable" href="#top">About</a></li>
+          <li><a class="scrollable" href="#collection">Collection</a></li>
+          <li><a class="scrollable" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+<!-- end header--><a id="top" name="home"></a>
+<main>
+  <div class="intro-text">
+    <p>Illness aims to bring you top quality, original awesomely designed tanks that will make your friends jealous. And they'll make you feel good because a portion of our profits from every tank sold goes toward taking disabled kids and young adults out on adventures.</p>
+    <br />
+    <p><i>Buy a dope tank. Look swoll and help bring joy to the less fortunate.</i></p>
+    <span class="skills"></span>
+  </div>
+  <div class="container-fluid" id="pictures">
+    <div class="row">
+      <!-- <img id="seanPic2" class="img-responsive col-sm-4" src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/15036213_10103942643318110_47122585097892776_n.jpg?oh=860de73484f7b34319e8a10058fe713c&oe=5A905B9D" alt="Sean climbing a banyan tree in Hilo"> -->
+      <img id="seanNatPic" class="img-responsive" src="images/seanNatScotland.jpg" alt="Sean and his sister Natalie checking out Scotland" title="Sean and his sister Natalie checking out Scotland"/>
+      <!-- <img id="seanPic3" class="img-responsive col-sm-4" src="images/gorgeConcert.jpg" alt="Sean taking in the scenery in Gorge, WA"> -->
+    </div>
+  </div>
+  </header>
+<!-- Gallery Grid Section -->
+  <section id="collection">
+    <h2>Collection</h2>
+    <hr class="star-dark"/>
+    <div class="container-fluid">
+      <ul class="row" id="collectionImages">
+        <li class="col-xs-6"><figure><img class="collectionImg" src="https://www.mensfitness.com/sites/mensfitness.com/files/styles/gallery_slideshow_image/public/billabong_a_main.jpg?itok=ufjpzH-U" alt=""/><br />
+          <figcaption>This is a placeholder. Our tanks will be way better.</figcaption></figure></li>
+        <li class="col-xs-6"><figure><img class="collectionImg" src="https://images-na.ssl-images-amazon.com/images/I/71ZiYiDPiaL._UL1500_.jpg" alt=""/><br />
+          <figcaption>Another placeholder. No way our tanks would have anything this douchey on them.</figcaption></figure></li>
+      </ul>
+    </div>
+  </section>
+<!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <hr class="star-dark"/>
+    <div class="container-fluid">
+      <div class="row" id="contactMe">
+        <div id="contactForm" class="col-xs-6">
+          <form novalidate="">
+            <div class="form-item">
+              <label for=""name"">Name</label>
+              <input id="name" type="text" placeholder="Name" required=""/>
+            </div>
+            <div class="form-item">
+              <label for=""email"">Email Address</label>
+              <input id="email" type="email" placeholder="Email Address" required=""/>
+            </div>
+            <div class="form-item">
+              <label for=""phone"">Phone Number</label>
+              <input id="phone" type="tel" placeholder="Phone Number" required=""/>
+            </div>
+            <div class="form-item">
+              <label for=""message"">Message</label>
+              <textarea id="message" rows="5" placeholder="Message" required=""></textarea>
+            </div><br/>
+            <button id="sendButton" type="submit">Send</button>
+          </form>
+        </div>
+        <div id="contactMessage" class="col-xs-6">
+          <p>Illness tanks strives to turn art into style and parlay that style into something beneficial for the autistic in our community. If you have any ideas or want to contribute your own designs, we would love to get in touch.</p>
+        </div>
+      </div>
+    </div>  
+  </section>
+<!-- Scroll to Top Button (Only supposed to be visible on small screen sizes)-->
+  <div class="scroll-top"><a class="button scrollable" href="#top"><i class="fa fa-chevron-up"></i></a>
+  </div>
+  </main>
+<!-- Footer -->
+<footer>
+  <div id="footer-above">
+    <div>
+      <h3>About this page</h3>
+      <p>Made with <i class="fa fa-fw fa-coffee"></i> and <i class="fa fa-fw fa-music"></i><br/> by <a href="seancmont.github.io">Sean Montgomery</a>.</p>
+    </div>
+    <div>
+      <h3>Around the Web</h3>
+      <ul>
+        <li><a class="button social" href="https://www.linkedin.com/in/sean-montgomery-aa600a88/"><i class="fa fa-fw fa-linkedin"></i></a></li>
+        <li><a class="button social" href="https://github.com/seancmont/m41"><i class="fa fa-fw fa-github"></i></a></li>
+        <li><a class="button social" href="https://twitter.com/montymonty41"><i class="fa fa-fw fa-twitter"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="footer-below">&copy; MTY41 <script>document.write(new Date().getFullYear())</script>. All Rights Reserved
+  </div>
+</footer>
